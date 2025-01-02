@@ -13,6 +13,8 @@ from agents.valuation import valuation_agent
 import argparse
 from datetime import datetime
 
+# To load environment variables from a .env file into the application's environment. 
+# This allows the application to use configuration values defined in the .env file without hardcoding them into the source code
 from dotenv import load_dotenv
 load_dotenv()
 
