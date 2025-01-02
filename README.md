@@ -60,7 +60,9 @@ poetry install
 # Create .env file for your API keys
 cp .env.example .env
 
-export OPENAI_API_KEY='your-api-key-here' # Get a key from https://platform.openai.com/
+export AZURE_OPENAI_ENDPOINT='your_azure_openai_endpoint_here'
+export AZURE_OPENAI_API_KEY='yout_azure_openai_api_key_here'
+# export OPENAI_API_KEY='your-api-key-here' # Get a key from https://platform.openai.com/
 export FINANCIAL_DATASETS_API_KEY='your-api-key-here' # Get a key from https://financialdatasets.ai/
 ```
 

@@ -13,6 +13,8 @@ from agents.valuation import valuation_agent
 import argparse
 from datetime import datetime
 
+from dotenv import load_dotenv
+load_dotenv()
 
 ##### Run the Hedge Fund #####
 def run_hedge_fund(ticker: str, start_date: str, end_date: str, portfolio: dict, show_reasoning: bool = False):
